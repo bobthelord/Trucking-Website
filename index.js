@@ -12,7 +12,7 @@ const navLinks = document.getElementById("navLinks");
 
 menuButton.addEventListener("click", () => {
 
-```
+
 navLinks.classList.toggle("active");
 
 const icon = menuButton.querySelector("i");
@@ -24,7 +24,7 @@ if (navLinks.classList.contains("active")) {
     icon.classList.remove("fa-xmark");
     icon.classList.add("fa-bars");
 }
-```
+
 
 });
 
@@ -32,7 +32,7 @@ if (navLinks.classList.contains("active")) {
 
 document.querySelectorAll(".nav-links a").forEach(link => {
 
-```
+
 link.addEventListener("click", () => {
 
     navLinks.classList.remove("active");
@@ -43,7 +43,7 @@ link.addEventListener("click", () => {
     icon.classList.add("fa-bars");
 
 });
-```
+
 
 });
 
